@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 60px;
+}
+
+body{
+    background-color: rgb(4, 115, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    position: relative;
+}
+
+.card-in{
+    border-radius: 10px;
+    width: 300px;
+    height: 420px;
+    position: absolute;
+    top: 40px;
+    left: -40px;
+    box-shadow: 0 0 15px grey;
+}
+
+.card-header{
+    height: 340px;
+    background-color: rgb(126, 221, 126);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-footer{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 80;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+}
+.card-footer img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.card-header img{
+    position: absolute;
+    width: 310px;
+    left: -70px;
+    top: 50px;
+}
+
+.card-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+
+}
+
+.card-icons i{
+    font-size: 20px;
+    color: white;
+}
+
+.card-text{
+    margin-left: 320px;
+    margin-top: 100px;
+
+}
+
+button{
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 15px gray;
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 5vh;
+    
+}
+
+.images{
+    border: 1px solid black;
+    
+}
+
+
+.card-text h2{
+    margin-top: 10px;
+}
